@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { supabase } from '../lib/supabase'
 import { useComments } from '../hooks/useData'
-import { useAuth } from '../hooks/useAuth'
+import { useAuth } from '../hooks/useAuth.jsx'
 
 export default function Comments({ type, id }) {
   const { comments, loading } = useComments(type, id)
