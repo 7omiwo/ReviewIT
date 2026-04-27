@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabase'
-import { useCategories } from '../hooks/useData'
+import { useCategories } from '../hooks/useData.jsx'
 
 export default function Compare() {
   const categories = useCategories()

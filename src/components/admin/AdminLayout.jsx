@@ -1,5 +1,5 @@
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
-import { useAuth } from '../../hooks/useAuth'
+import { useAuth } from '../../hooks/useAuth.jsx'
 
 const NAV_ITEMS = [
   { to: '/admin',           label: 'Dashboard',   icon: '◈',  end: true },

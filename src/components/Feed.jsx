@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useArticles, useCategories } from '../hooks/useData'
+import { useArticles, useCategories } from '../hooks/useData.jsx'
 
 export default function Feed() {
   const [activeCategory, setActiveCategory] = useState(null)

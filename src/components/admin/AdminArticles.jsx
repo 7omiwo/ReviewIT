@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../../lib/supabase'
-import { useCategories } from '../../hooks/useData'
+import { useCategories } from '../../hooks/useData.jsx'
 import { PageShell, PageHeader } from './AdminDashboard'
 
 export default function AdminArticles() {

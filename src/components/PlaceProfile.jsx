@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { usePlace } from '../hooks/useData'
+import { usePlace } from '../hooks/useData.jsx'
 import Comments from './Comments'
 
 const PRICE_LABELS = { 1: '₦', 2: '₦₦', 3: '₦₦₦', 4: '₦₦₦₦', 5: '₦₦₦₦₦' }

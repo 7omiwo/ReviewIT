@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { usePlaces, useCategories } from '../hooks/useData'
+import { usePlaces, useCategories } from '../hooks/useData.jsx'
 
 const PRICE_LABELS = { 1: '₦', 2: '₦₦', 3: '₦₦₦', 4: '₦₦₦₦', 5: '₦₦₦₦₦' }
 
